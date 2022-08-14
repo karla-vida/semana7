@@ -3,16 +3,17 @@ import styles from "./Header.module.css";
 export const Header = () => {
     return (
         <header>
-        <h1>Pizzaria Dom React</h1>
-        <nav>
+          <nav className={styles.navBar}>
+          < img src={"./src/componentes/logo.jpg"} alt="Inicio"/>
+          <h1 id={styles.h1}>Pizzaria Dom React</h1>
+          <label id={styles.label}>Cardápio</label>
+            {/*
             <ul className={styles.ul}>
-                <li>Inicio</li>
-                <li>Produtos</li>
-                <li>Sobre</li>
-                <li>Contato</li>
-            </ul>
+                <li>< img src={"./src/componentes/logo.jpg"} alt="Inicio"/></li>
+                <li>Cardápio</li>
+                  </ul>
+    */}  
         </nav>
-        <button>Sair</button>
-        </header>
+        </header>  
     );
 };
