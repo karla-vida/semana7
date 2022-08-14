@@ -12,7 +12,7 @@
 
 .navBar {
     justify-content: space-between;
-    gap: 450px;
+ 
     display: flex;
     font-size: 300;
     list-style:none;
