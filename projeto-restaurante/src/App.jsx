@@ -1,17 +1,25 @@
 import styles from "./App.module.css";
-import { Header } from "./componentes";
-import { Footer } from "./componentes";
+import { Footer, Header, Secao } from "@componentes";
 import produtos from "./services/produtos.json";
 import { ListaCards } from "./componentes";
-import {Card} from "./componentes";
 
 function App() {
   return (
     <div className="app"> 
     <Header></Header>
-    <ListaCards produtos={produtos.entradas}/>
-    <ListaCards produtos={produtos.principais}/>
-    <ListaCards produtos={produtos.sobremesas}/>
+    <main className={styles.main}>
+        <Secao
+          nome='Entradas'
+          produtos={produtos.entradas}
+        />
+
+        <Secao
+          nome='Principais'
+          produtos={produtos.principais}
+        />
+
+        <Secao nome='Sobremesas' produtos={produtos.sobremesas} />
+      </main>
     <Footer></Footer>
     </div>
   );

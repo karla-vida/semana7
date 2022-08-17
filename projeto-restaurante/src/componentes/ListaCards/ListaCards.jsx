@@ -4,6 +4,7 @@ import { Card } from '@componentes';
 
 import styles from './ListaCards.module.css';
 
+
 export const ListaCards = ({ produtos }) => (
   <ul className={styles.lista}>
     {produtos.map((produto) => (
