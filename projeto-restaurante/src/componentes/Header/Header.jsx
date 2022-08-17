@@ -2,17 +2,17 @@ import styles from "./Header.module.css";
 
 export const Header = () => {
     return (
-        <header>
-          <nav className={styles.navBar}>
-          < img src={"./src/componentes/logo.jpg"} alt="Inicio"/>
-          <h1 id={styles.h1}>Pizzaria Dom React</h1>
-          <label id={styles.label}>Cardápio</label>
-            {/*
+        <header className={styles.header}>
+          <div className={styles.container}>
+          < img src={"./src/componentes/logo1.jpg"} alt="Logo" height={100}/>
+          <h1 id={styles.h1}>Ristorante Dom React</h1>
+          </div>
+          <nav>
             <ul className={styles.ul}>
-                <li>< img src={"./src/componentes/logo.jpg"} alt="Inicio"/></li>
-                <li>Cardápio</li>
-                  </ul>
-    */}  
+              <li>
+                <a className={styles.link} href="#">Menu</a>
+              </li>
+            </ul>
         </nav>
         </header>  
     );

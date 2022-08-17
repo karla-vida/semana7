@@ -1,0 +1,143 @@
+{
+    "entradas": [
+      {
+        "id": 1,
+        "img": "/assets/image/salada-italiana.jpg",
+        "nome": "Salada à italiana",
+        "descricao": "Mix de folhas, com alcachofra, beringela e pimentão",
+        "valor": 50,
+        "tempoPreparo": "10 min"
+      },
+
+      {
+        "id": 2,
+        "img": "/assets/image/salada-tropical.jpg",
+        "nome": "Salada tropical",
+        "descricao": "Rucula, alface, palmito, mussarela de búfala, morango e manga.",
+        "valor": 44,
+        "tempoPreparo": "15 min"
+      
+      },
+      {
+        "id": 3,
+        "img": "/assets/image/radicci.jpg",
+        "nome": "Radicci com bacon",
+        "descricao": "Salada de radicci com bacon.",
+        "valor": 25,
+        "tempoPreparo": "10 min"
+      
+      },
+      {
+        "id": 4,
+        "img": "/assets/image/prosciutto.jpg",
+        "nome": "Prosciutto di Parma e Melone",
+        "descricao": "Prosciutto di Parma e Melone",
+        "valor": 49,
+        "tempoPreparo": "10 min"
+       
+      },
+      {
+        "id": 5,
+        "img": "/assets/image/burrata.jpg",
+        "nome": "Burrata",
+        "descricao": "Burrata ao forno, com rúcula, tomate seco, parmesão e crostata no azeite. Acompanha cesta de pães variados",
+        "valor": 65,
+        "tempoPreparo": "20 min"
+     
+      },
+      {
+        "id": 6,
+        "img": "/assets/image/brusqueta.jpg",
+        "nome": "Brusqueta",
+        "descricao": "Brusqueta de mussarela de búfala, tomate e basílico",
+        "valor": 35,
+        "tempoPreparo": "15 min"
+      }
+    ],
+
+    "principais": [
+      {
+        "id": 7,
+        "img": "/assets/image/parmegiana1.jpg",
+        "nome": "Fillet mignon alla parmigiana",
+        "descricao": "Fillet mignon alla parmegiana acompanhado de um delicioso spaghetti.",
+        "valor": 239,
+        "tempoPreparo": "40 min"
+      },
+      {
+        "id": 8,
+        "img": "/assets/image/frango.jpg",
+        "nome": "Frango ai quattro formaggi",
+        "descricao": "Frango grelhado aos quatro queijos, acompanhado de fettuccine.",
+        "valor": 145,
+        "tempoPreparo": "40 min"
+      },
+      {
+        "id": 9,
+        "img": "/assets/image/peixe.jpg",
+        "nome": "All`acqua pazza",
+        "descricao": "Congrio rosa grelhado com azeite aromatizado, vinho branco, tomate san marzano, alcaparras, e azeitonas. Acompanha legumes na manteiga e talharim.",
+        "valor": 198,
+        "tempoPreparo": "30 min"
+
+      },
+      {
+        "id": 10,
+        "img": "/assets/image/tagliarine1.jpg",
+        "nome": "Tagliarini ai frutti di mare",
+        "descricao": "Tagliarini com lulas, camarões e mariscos.",
+        "valor": 156,
+        "tempoPreparo": "30 min"
+      },
+      {
+        "id": 11,
+        "img": "/assets/image/gnocchi.jpg",
+        "nome": "Gnocchi al sugo",
+        "descricao": "Macio e suculento gnocchi, preparado com tomates, mussarela, e manjericão fresco.",
+        "valor": 93,
+        "tempoPreparo": "40 min"
+      },
+      {
+        "id": 12,
+        "img": "/assets/image/lasanha1.jpg",
+        "nome": "Lasagna alla bolognese",
+        "descricao": "Lasanha ao molho de carne à bolonhesa, recheio de presunto de parma e mussarela e cobertura gratinada de queijo mussarela e parmesão.",
+        "valor": 85,
+        "tempoPreparo": "40 min"
+      },
+      {
+        "id": 13,
+        "img": "/assets/image/risoto.jpg",
+        "nome": "Risotti alla panna e funghi",
+        "descricao": "Risoto com creme de leite, cogumelos frescos e parmesão",
+        "valor": 110,
+        "tempoPreparo": "30 min"
+      }
+    ],
+    "sobremesas": [
+      {
+        "id": 14,
+        "img": "/assets/image/panna_cotta.jpg",
+        "nome": "Panna cotta",
+        "descricao": "Doce leve feito com creme de leite fresco, fava de baunilha e calda de morangos.",
+        "valor": 29,
+        "tempoPreparo": "20 min"
+      },
+      {
+        "id": 15,
+        "img": "/assets/image/tiramisu.jpg",
+        "nome": "Tiramisú",
+        "descricao": "O tradicional Tiramisú italiano, com biscoito champanhe, café mascarpone e cacau em pó.",
+        "valor": 35,
+        "tempoPreparo": "25 min"
+      },
+      {
+        "id": 16,
+        "img": "/assets/image/petit.jpg",
+        "nome": "Petit Gateau",
+        "descricao": "Delicioso doce de chocolate acompanhado de sorvete de creme.",
+        "valor": 29,
+        "tempoPreparo": "20 min"
+      }
+    ]
+  }
