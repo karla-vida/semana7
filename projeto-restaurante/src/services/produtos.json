@@ -1,5 +1,5 @@
 {
-    "entradas": [
+    "saladas": [
       {
         "id": 1,
         "img": "/assets/image/salada-italiana.jpg",
@@ -26,7 +26,9 @@
         "valor": 25,
         "tempoPreparo": "10 min"
       
-      },
+      }
+    ],
+    "entradas": [
       {
         "id": 4,
         "img": "/assets/image/prosciutto.jpg",
@@ -54,7 +56,6 @@
         "tempoPreparo": "15 min"
       }
     ],
-
     "principais": [
       {
         "id": 7,
@@ -138,6 +139,40 @@
         "descricao": "Delicioso doce de chocolate acompanhado de sorvete de creme.",
         "valor": 29,
         "tempoPreparo": "20 min"
+      }
+    ],
+    "bebidas": [
+      {
+        "id": 17,
+        "img": "/assets/image/sucos.jpg",
+        "nome": "Sucos e água",
+        "descricao": "Temos sucos naturais de laranja, limão e abacaxi. Suco integral de uva e maçã.",
+        "valor": 15,
+        "tempoPreparo": "5 min"
+      },
+      {
+        "id": 18,
+        "img": "/assets/image/drinks.jpg",
+        "nome": "Drinks",
+        "descricao": "Servimos caipirinhas de limão, morango e maracujá",
+        "valor": 35,
+        "tempoPreparo": "10 min"
+      },
+      {
+        "id": 19,
+        "img": "/assets/image/vinho.jpg",
+        "nome": "Vinhos",
+        "descricao": "Confira nossa carta de vinhos, temos ótimas opções",
+        "valor": 60,
+        "tempoPreparo": "imediato"
+      },
+      {
+        "id": 20,
+        "img": "/assets/image/cerveja.jpg",
+        "nome": "Cervejas",
+        "descricao": "Temos opções de cervejas nacionais e importadas",
+        "valor": 18,
+        "tempoPreparo": "imediato"
       }
     ]
   }
