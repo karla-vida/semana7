@@ -16,7 +16,8 @@
         "nome": "Salada tropical",
         "descricao": "Rucula, alface, palmito, mussarela de búfala, morango e manga.",
         "valor": 44,
-        "tempoPreparo": "15 min"     
+        "tempoPreparo": "15 min",
+        "subSecao": "Contém lactose" 
       },
       {
         "id": 3,
