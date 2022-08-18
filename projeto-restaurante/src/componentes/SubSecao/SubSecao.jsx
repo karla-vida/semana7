@@ -10,7 +10,7 @@ export const SubSecao = ({ produtos, subSecao }) => {
   return (
     <div className={styles.subSecao}>
       <div>
-        <h3>{subSecao}</h3>
+        <h3 className={styles.h3}>{subSecao}</h3>
         <hr className={styles.separador} />
       </div>
 

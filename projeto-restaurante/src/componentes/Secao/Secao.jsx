@@ -8,7 +8,7 @@ export const Secao = ({ nome, produtos, subSecoes }) => {
   return (
     <div className={styles.container1}>
       <div>
-        <h2>{nome}</h2>
+        <h2 className={styles.h2}>{nome}</h2>
         <hr className={styles.separador} />
       </div>
 

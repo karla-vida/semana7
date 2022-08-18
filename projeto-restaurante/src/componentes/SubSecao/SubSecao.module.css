@@ -6,9 +6,13 @@
     margin-bottom: 20px;
   }
   
+  .h3 {
+    font-size: 30px;
+    font-weight: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
   .subSecao {
     margin-left: 20px;
-    color: rgb(141, 39, 2);
   }
   
   @media (max-width: 600px) {
