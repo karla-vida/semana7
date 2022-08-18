@@ -3,3 +3,4 @@ export { Footer } from "./Footer/Footer";
 export {ListaCards} from "./ListaCards/ListaCards";
 export { Card } from "./Card/Card";
 export { Secao } from "./Secao/Secao";
+export { SubSecao } from "./SubSecao/SubSecao";

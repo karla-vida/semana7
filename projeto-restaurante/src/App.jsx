@@ -3,6 +3,9 @@ import { Footer, Header, Secao } from "@componentes";
 import produtos from "./services/produtos.json";
 
 function App() {
+  const subSecoesPrincipais = new Set(produtos.principais.map((p) => p.subSecao));
+  console.log(subSecoesPrincipais);
+
   return (
     <div className="app">
       <Header></Header>
@@ -11,7 +14,7 @@ function App() {
 
         <Secao nome="Saladas" produtos={produtos.saladas} />
 
-        <Secao nome="Pratos principais" produtos={produtos.principais} />
+        <Secao nome="Pratos principais" produtos={produtos.principais} subSecoes={Array.from(subSecoesPrincipais)}/>
 
         <Secao nome="Sobremesas" produtos={produtos.sobremesas} />
 

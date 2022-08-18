@@ -6,7 +6,8 @@
         "nome": "Salada à italiana",
         "descricao": "Mix de folhas, com alcachofra, beringela e pimentão",
         "valor": 50,
-        "tempoPreparo": "10 min"
+        "tempoPreparo": "10 min",
+        "subSecao": "Zero Glútem e zero lactose"
       },
 
       {
@@ -15,8 +16,7 @@
         "nome": "Salada tropical",
         "descricao": "Rucula, alface, palmito, mussarela de búfala, morango e manga.",
         "valor": 44,
-        "tempoPreparo": "15 min"
-      
+        "tempoPreparo": "15 min"     
       },
       {
         "id": 3,
@@ -24,8 +24,8 @@
         "nome": "Radicci com bacon",
         "descricao": "Salada de radicci com bacon.",
         "valor": 25,
-        "tempoPreparo": "10 min"
-      
+        "tempoPreparo": "10 min",
+        "subSecao": "Zero Glútem e zero lactose"
       }
     ],
     "entradas": [
@@ -63,7 +63,8 @@
         "nome": "Fillet mignon alla parmigiana",
         "descricao": "Fillet mignon alla parmegiana acompanhado de um delicioso spaghetti.",
         "valor": 239,
-        "tempoPreparo": "40 min"
+        "tempoPreparo": "40 min",
+        "subSecao": "Carnes"
       },
       {
         "id": 8,
@@ -71,7 +72,8 @@
         "nome": "Frango ai quattro formaggi",
         "descricao": "Frango grelhado aos quatro queijos, acompanhado de fettuccine.",
         "valor": 145,
-        "tempoPreparo": "40 min"
+        "tempoPreparo": "40 min",
+        "subSecao": "Carnes"
       },
       {
         "id": 9,
@@ -79,7 +81,8 @@
         "nome": "All`acqua pazza",
         "descricao": "Congrio rosa grelhado com azeite aromatizado, vinho branco, tomate san marzano, alcaparras, e azeitonas. Acompanha legumes na manteiga e talharim.",
         "valor": 198,
-        "tempoPreparo": "30 min"
+        "tempoPreparo": "30 min",
+        "subSecao": "Carnes"
 
       },
       {
@@ -88,7 +91,8 @@
         "nome": "Tagliarini ai frutti di mare",
         "descricao": "Tagliarini com lulas, camarões e mariscos.",
         "valor": 156,
-        "tempoPreparo": "30 min"
+        "tempoPreparo": "30 min",
+        "subSecao": "Massas e risotos"
       },
       {
         "id": 11,
@@ -96,7 +100,8 @@
         "nome": "Gnocchi al sugo",
         "descricao": "Macio e suculento gnocchi, preparado com tomates, mussarela, e manjericão fresco.",
         "valor": 93,
-        "tempoPreparo": "40 min"
+        "tempoPreparo": "40 min",
+        "subSecao": "Massas e risotos"
       },
       {
         "id": 12,
@@ -104,7 +109,8 @@
         "nome": "Lasagna alla bolognese",
         "descricao": "Lasanha ao molho de carne à bolonhesa, recheio de presunto de parma e mussarela e cobertura gratinada de queijo mussarela e parmesão.",
         "valor": 85,
-        "tempoPreparo": "40 min"
+        "tempoPreparo": "40 min",
+        "subSecao": "Massas e risotos"
       },
       {
         "id": 13,
@@ -112,7 +118,8 @@
         "nome": "Risotti alla panna e funghi",
         "descricao": "Risoto com creme de leite, cogumelos frescos e parmesão",
         "valor": 110,
-        "tempoPreparo": "30 min"
+        "tempoPreparo": "30 min",
+        "subSecao": "Massas e risotos"
       }
     ],
     "sobremesas": [
